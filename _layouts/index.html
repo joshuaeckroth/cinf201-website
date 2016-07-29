@@ -1,0 +1,159 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/code.css">
+    <link href="http://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Suez+One" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="container-tight">
+      <table id="index">
+        <tr>
+          <td>
+            <h2>Notes</h2>
+            <ul class="posts">
+              <li>
+                <div class="post-title"><a href="/notes/syllabus.html">Syllabus</a></div>
+              </li>
+              <li>
+                <div class="post-title"><a href="/notes/londo-access.html">Londo access</a></div>
+              </li>
+              <li>
+                <div class="post-title"><a href="/notes/database-systems.html">Database systems</a></div>
+              </li>
+              <li>
+                <div class="post-title"><a href="/notes/sql.html">SQL</a></div>
+              </li>
+              <li>
+                <div class="post-title"><a href="/notes/crud-in-sql.html">CRUD in SQL</a></div>
+                <ul>
+                <li>
+                  <div class="post-title"><a href="/notes/select.html">Select</a></div>
+                </li>
+                <li>
+                  <div class="post-title"><a href="/notes/insert.html">Insert</a></div>
+                </li>
+                <li>
+                  <div class="post-title"><a href="/notes/update.html">Update</a></div>
+                </li>
+                <li>
+                  <div class="post-title"><a href="/notes/delete.html">Delete</a></div>
+                </li>
+                </ul>
+              </li>
+              <li>
+                <div class="post-title"><a href="/notes/mysql-guis.html">MySQL GUIs</a></div>
+              </li>
+              <li>
+                <div class="post-title"><a href="/notes/ddl.html">DDL</a></div>
+              </li>
+              <li>
+                <div class="post-title"><a href="/notes/table-design.html">Table design and normalization</a></div>
+              </li>
+              <li>
+                <div class="post-title"><a href="/notes/joins.html">Joins</a></div>
+              </li>
+              <li>
+                <div class="post-title"><a href="/notes/performance-analysis.html">Performance analysis</a></div>
+                <ul>
+                  <li>
+                    <div class="post-title"><a href="/notes/indexes.html">Indexes</a></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div class="post-title"><a href="/notes/aggregation.html">Aggregation</a></div>
+              </li>
+              <li>
+                <div class="post-title"><a href="/notes/transactions.html">Transactions</a></div>
+              </li>
+              <li>
+                <div class="post-title"><a href="/notes/views.html">Views</a></div>
+              </li>
+              <li>
+                <div class="post-title"><a href="/notes/triggers.html">Triggers</a></div>
+              </li>
+              <li>
+                <div class="post-title"><a href="/notes/import-export.html">Import/export</a></div>
+              </li>
+              <li>
+                <div class="post-title"><a href="/notes/security.html">Security</a></div>
+                <ul>
+                  <li>
+                    <div class="post-title"><a href="/notes/sql-injection.html">SQL injection</a></div>
+                  </li>
+                  <li>
+                    <div class="post-title"><a href="/notes/password-storage.html">Password storage</a></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div class="post-title"><a href="/notes/nosql.html">NoSQL</a></div>
+                <ul>
+                  <li>
+                    <div class="post-title"><a href="/notes/mongodb.html">MongoDB</a></div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div class="post-title"><a href="/notes/gui-frontends.html">GUI frontends</a></div>
+              </li>
+            </ul>
+          </td>
+          <td>
+            <h2>Cookbooks</h2>
+            <ul class="posts">
+              <li>
+                <div class="post-title"><a href="/cookbook/external-resources.html">External resources</a></div>
+              </li>
+            </ul>
+          </td>
+          <td>
+            <h2>Assignments</h2>
+            <ul class="posts">
+              {% for p in site.pages sort_by:title order:ascending %}
+              {% if p.categories contains 'assignments' %}
+              <li>
+                <div class="post-title"><a href="{{ p.url }}">{{ p.title }}</a></div>
+                <div class="post-due">{% if p.due %}due {{ p.due }}{% endif %}</div>
+              </li>
+              {% endif %}
+              {% endfor %}
+            </ul>
+          </td>
+          <td id="metabox">
+            <div class="classname">CINF 201</div>
+            <div class="semester">Fall 2016</div>
+            <div class="email"><b><a href="mailto:jeckroth@stetson.edu">jeckroth@stetson.edu</a></b></div>
+            <div class="officehours">
+              Office hours:<br/>
+              Mon: 2:30-3:30<br/>
+              Tue: 12-2<br/>
+              Thur: 1-2
+            </div>
+          </td>
+        </tr>
+      </table>
+
+      <div class="license">
+        <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">CINF 201 material</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://cinf201.artifice.cc" property="cc:attributionName" rel="cc:attributionURL">Joshua Eckroth</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. Source code for this website available at <a href="https://github.com/joshuaeckroth/cinf201-website/tree/gh-pages">GitHub</a>.
+      </div>
+      
+    </div>
+  </body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-23971505-14', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</html>

@@ -1,0 +1,27 @@
+---
+layout: note
+title: "A02: Billboard Top 10"
+due: "Sep 7, 11:59pm"
+categories: [assignments]
+---
+
+# A02: Billboard Top 10
+
+For the [week of July 23, 2016](http://www.billboard.com/charts/hot-100/2016-07-23):
+
+| Artist | Song | This week position | Last week position |
+|-
+| Drake ft. WizKid & Kyla | One Dance | 1 | 1 |
+| Justin Timberlake | Can't Stop The Feeling! | 2 | 2 |
+| The Chainsmokers ft. Daya | Don't Let Me Down | 3 | 3 |
+| Calvin Harris ft. Rihanna | This Is What You Came For | 4 | 5 |
+| Sia ft. Sean Paul | Cheap Thrills | 5 | 6 |
+| Desiigner | Panda | 6 | 4 |
+| Rihanna | Needed Me | 7 | 7 |
+| twenty one pilots | Ride | 8 | 9 |
+| Kent Jones | Don't Mind | 9 | 8 |
+| Fifth Harmony ft. Ty Dolla $ign | Work From Home | 10 | 10 |
+
+
+
+
