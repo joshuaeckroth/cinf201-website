@@ -1,0 +1,12 @@
+---
+layout: note
+title: "A03: DeLand weather"
+due: "Sep 12, 11:59pm"
+categories: [assignments]
+---
+
+# A03: DeLand weather
+
+
+
+

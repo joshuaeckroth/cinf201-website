@@ -1,0 +1,19 @@
+---
+layout: note
+title: "A10: Lahman's baseball db"
+due: "Oct 31, 11:59pm"
+categories: [assignments]
+---
+
+# A10: Lahman's baseball db
+
+http://www.seanlahman.com/baseball-archive/statistics/
+
+use CSV, compare with SQL
+
+use SQL also
+
+
+
+
+

@@ -1,0 +1,12 @@
+---
+layout: note
+title: "A09: Registrar, pt. 2"
+due: "Oct 24, 11:59pm"
+categories: [assignments]
+---
+
+# A09: Registrar, pt. 2
+
+
+
+

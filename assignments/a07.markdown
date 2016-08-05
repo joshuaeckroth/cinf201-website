@@ -1,0 +1,12 @@
+---
+layout: note
+title: "A07: Student loans"
+due: "Oct 10, 11:59pm"
+categories: [assignments]
+---
+
+# A07: Student loans
+
+
+
+

@@ -1,0 +1,13 @@
+---
+layout: note
+title: "A12: Product reviews"
+due: "Nov 14, 11:59pm"
+categories: [assignments]
+---
+
+# A12: Product reviews
+
+
+
+
+
