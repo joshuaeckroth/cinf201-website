@@ -1,6 +1,6 @@
 ---
 title: Group 1
-layout: default
+layout: note
 ---
 
 # Group 1

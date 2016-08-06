@@ -1,7 +1,7 @@
 ---
-title: Group 1
-layout: default
+title: Group 2
+layout: note
 ---
 
-# Group 1
+# Group 2
 

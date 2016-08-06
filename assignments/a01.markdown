@@ -8,3 +8,32 @@ categories: [assignments]
 # A01: NFL Play-by-play
 
 
+
+## SQL script example
+
+Create a text file named `a01.sql` and write your SQL queries in this
+file, one per line. Be sure to finish each query with a
+semicolon. Start with `use cinf201;` to be sure you are accessing the
+correct database.
+
+Here is an example:
+
+~~~ sql
+use cinf201;
+
+select GameDate from nflpbp limit 10;
+
+select Quarter, Minute, Down from nflpbp limit 10;
+~~~
+
+You can test your script in two ways:
+
+- manually: on londo, run `mysql < a01.sql`
+- using my testing script: on londo, run `cinf201-test a01`
+
+
+## Submission
+
+~~~
+cinf201-submit a01
+~~~
