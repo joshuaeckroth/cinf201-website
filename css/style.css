@@ -87,7 +87,7 @@ td#metabox a:hover {
 }
 
 td#metabox {
-    background: #E5A01C;
+    background: #FF932F;
     color: #fff;
     padding: 10px;
 }
@@ -163,7 +163,7 @@ div.metatop span.homelink {
 table {
     margin: 0 auto;
     border-collapse: separate;
-    border: 1px solid #E5A01C;
+    border: 1px solid #FF932F;
     border-spacing: 0 5px;
 }
 
@@ -172,7 +172,7 @@ td {
 }
 
 thead tr th {
-    border-bottom: 1px solid #E5A01C;
+    border-bottom: 1px solid #FF932F;
 }
 
 thead th {
@@ -185,7 +185,7 @@ table#toc {
 }
 
 pre {
-    border-left: 4px solid #E5A01C;
+    border-left: 4px solid #FF932F;
     padding-left: 15px;
     margin: 2em 0;
 }
@@ -196,7 +196,7 @@ pre, code, tt {
 }
 
 code {
-    border: 1px dotted #E5A01C;
+    border: 1px dotted #FF932F;
     padding: 2px;
 }
 
@@ -206,7 +206,7 @@ pre code {
 }
 
 blockquote {
-    border-left: 4px solid #E5A01C;
+    border-left: 4px solid #FF932F;
     padding-left: 15px;
     margin: 2em 0;
     padding-left: 30px;
