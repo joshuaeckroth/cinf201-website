@@ -7,6 +7,36 @@ categories: [assignments]
 
 # A03: DeLand weather
 
+This assignment helps you practice with more advanced "select" queries. We’ll use a dataset of DeLand's weather downloaded from [FSU's Climate Center](http://climatecenter.fsu.edu/climate-data-access-tools/downloadable-data). You will only query one table, weather_deland, in the cinf201 database.
+
+## Tasks
+
+In a single file named `A03.sql`, write "select" queries that meet the following criteria:
+
+1. Show all fields from the 10 most recent records, ordered by date (most recent first).
+2. Select the single hottest temperature; just report this temp.
+3. Show the high temperature and year (in that order) for every christmas day (Dec 25); order by temp (highest first); ignore null high temps.
+4. Show the month, avg\_temp, and precipitation for days where precipitation was greater than 5 inches; order by month (earlier months first); skip null values for avg\_temp.
+5. Show year, precipitation, max\_temp, min\_temp, avg\_temp for every record with the same day and month as today, ordered by year (oldest first); ignore records where max\_temp is null.
+6. Find the coldest Monday; report the min\_temp and recdate; ignore min\_temps that are null.
+
+## Testing
+
+~~~
+cinf201-test A03
+~~~
+
+## Submission
+
+~~~
+cinf201-submit A03
+~~~
+
+## Hints
+
+For date-related queries (like day of week queries), refer to [MySQL's date and time functions](https://dev.mysql.com/doc/refman/5.7/en/date-and-time-functions.html).
+
+
 
 
 

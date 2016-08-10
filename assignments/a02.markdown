@@ -7,7 +7,11 @@ categories: [assignments]
 
 # A02: Billboard Top 10
 
-For the [week of July 23, 2016](http://www.billboard.com/charts/hot-100/2016-07-23):
+This assignment helps you practice "insert", "select", "update", and "delete" queries. We'll use a simple dataset of Billboard top songs for the [week of July 23, 2016](http://www.billboard.com/charts/hot-100/2016-07-23).
+
+## Preparation
+
+Here is the song data:
 
 | Artist | Song | This week position | Last week position |
 |-
@@ -22,6 +26,39 @@ For the [week of July 23, 2016](http://www.billboard.com/charts/hot-100/2016-07-
 | Kent Jones | Don't Mind | 9 | 8 |
 | Fifth Harmony ft. Ty Dolla $ign | Work From Home | 10 | 10 |
 
+You will create the billboard\_top10 table in your personal database, e.g., jeckroth\_cinf201 (but your username instead).
 
+Use the following commands to create the table in the MySQL console, or place these commands in your script:
 
+~~~ sql
+use cinf201_jeckroth;
+drop table if exists billboard_top10;
+create table billboard_top10 (
+    artist varchar(200) not null,
+    song varchar(200) not null,
+    this_week_pos int not null,
+    last_week_pos int
+);
+~~~
+
+## Tasks
+
+1. Insert all the song data listed in the table above, in the order shown in the table. Then run `select * from billboard_top10;` to show all the data in the order inserted.
+2. Show all songs (artist and song name) that have moved up the chart over the week; keep the order of songs the same as the original table.
+3. Swap the "this week" positions of Desiigner and Kent Jones' songs. (You might need multiple queries.) Then run `select * from billboard_top10 order by this_week_pos;`
+4. Show all data from songs that involve Rihanna (either as sole artist or featured); use a "LIKE" function in your "where" clause for this purpose; sort by this week pos, ascending.
+5. Copy every "this week" position to "last week", then update all "this week" positions to 1+ their prior value. Eliminate any songs whose "this week" position is greater than 10. Then run `select * from billboard_top10 order by this_week_pos;`
+6. Add a new song at position 1: artist = Justin Bieber, song = Baby, this week pos = 1, last week pos = null. Then run `select * from billboard_top10 order by this_week_pos;`
+
+## Testing
+
+~~~
+cinf201-test A02
+~~~
+
+## Submission
+
+~~~
+cinf201-submit A02
+~~~
 
