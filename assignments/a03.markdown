@@ -17,10 +17,9 @@ In a single file named `A03.sql`, write "select" queries that meet the following
 2. Select the single hottest temperature; just report this temp.
 3. Show the high temperature and year (in that order) for every christmas day (Dec 25); order by temp (highest first); ignore null high temps.
 4. Show the month, avg\_temp, and precipitation for days where precipitation was greater than 5 inches; order by month (earlier months first); skip null values for avg\_temp.
-5. Show year, precipitation, max\_temp, min\_temp, avg\_temp for every record with the same day and month as today, ordered by year (oldest first); ignore records where max\_temp is null.
-6. Find the coldest Monday; report the min\_temp and recdate; ignore min\_temps that are null.
+5. Find the coldest Monday; report the min\_temp and recdate; ignore min\_temps that are null.
 
-## Testing
+## Tester
 
 ~~~
 cinf201-test A03
