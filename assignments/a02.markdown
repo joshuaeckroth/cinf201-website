@@ -26,9 +26,9 @@ Here is the song data:
 | Kent Jones | Don't Mind | 9 | 8 |
 | Fifth Harmony ft. Ty Dolla $ign | Work From Home | 10 | 10 |
 
-You will create the billboard\_top10 table in your personal database, e.g., jeckroth\_cinf201 (but your username instead).
+## Required code
 
-Use the following commands to create the table in the MySQL console, or place these commands in your script:
+Include the following code at the top of your solution to ensure the table structure is created. Change "cinf201\_jeckroth" to your database name, i.e., "cinf201\_myusername".
 
 ~~~ sql
 use cinf201_jeckroth;
@@ -50,7 +50,7 @@ create table billboard_top10 (
 5. Copy every "this week" position to "last week", then update all "this week" positions to 1+ their prior value. Eliminate any songs whose "this week" position is greater than 10. Then run `select * from billboard_top10 order by this_week_pos;`
 6. Add a new song at position 1: artist = Justin Bieber, song = Baby, this week pos = 1, last week pos = null. Then run `select * from billboard_top10 order by this_week_pos;`
 
-## Testing
+## Tester
 
 ~~~
 cinf201-test A02
