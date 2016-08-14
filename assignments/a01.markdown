@@ -7,11 +7,15 @@ categories: [assignments]
 
 # A01: NFL Play-by-play
 
-This assignment helps you practice with the SQL "select" query. We'll use a dataset of NFL play-by-play statistics downloaded from [NFLsavant.com](http://nflsavant.com/about.php). You will only query one table, `nflpbp`, in the `cinf201` database.
+This assignment helps you practice with the SQL "select" query. We'll use a
+dataset of NFL play-by-play statistics downloaded from
+[NFLsavant.com](http://nflsavant.com/about.php). You will only query one table,
+`nflpbp`, in the `cinf201` database.
 
 ## Tasks
 
-In a single file named `A01.sql`, write four "select" queries that meet the following criteria:
+In a single file named `A01.sql`, write four "select" queries that meet the
+following criteria:
 
 1. Select unique game dates, sorted by date.
 2. Select offense and defense teams from games on Thanksgiving day of
@@ -51,8 +55,18 @@ You can test your script in two ways:
 
 ## Submission
 
+Run this command from the same directory as your `A01.sql` file. It will automatically run the tester.
+
 ~~~
 cinf201-submit A01
+~~~
+
+## Tester
+
+You can run the tester without submitting with the following command. Again, run this command from the same directory as your `A01.sql` file.
+
+~~~
+cinf201-test A01
 ~~~
 
 ## Hints
