@@ -9,7 +9,7 @@ CINF 201 - 01, Fall 2016 --- Database Systems
 
 ## About me
 
-- Joshua Eckroth, [jeckroth@stetson.edu](mailto:jeckroth@stetson.edu)
+- Joshua Eckroth, [jeckroth@stetson.edu](mailto:jeckroth@stetson.edu), [homepage](http://www2.stetson.edu/~jeckroth/)
 
 - Eliz Hall 214, 386-740-2519
 

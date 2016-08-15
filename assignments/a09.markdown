@@ -7,6 +7,7 @@ categories: [assignments]
 
 # A09: Registrar, pt. 2
 
+This assignment helps you practice views and triggers. You will build off the prior assignment in which you created a student registrar database. Details forthcoming.
 
 
 

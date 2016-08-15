@@ -7,7 +7,6 @@ categories: [assignments]
 
 # A04: Pokédex
 
-Description forthcoming.
-
+This assignment helps you practice with normalized table design. Details forthcoming.
 
 

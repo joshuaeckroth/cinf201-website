@@ -7,6 +7,6 @@ categories: [assignments]
 
 # A08: Registrar
 
-
+This assignment helps you practice table design, constraints like foreign keys, and transactions. You will be asked to create a student registrar system. Details forthcoming.
 
 

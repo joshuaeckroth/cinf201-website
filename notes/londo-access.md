@@ -169,35 +169,60 @@ Type "exit" in the console to close a window or pane.
 
 ## Homework submission
 
+Before you start a new assignment, create a directory and cd (change directory) into it:
+
 ~~~
 cd
 mkdir -p cinf201/A01
 cd cinf201/A01
 ~~~
 
+Code your solution, then test it (if you wish):
+
+~~~
+cinf201-test A01
+~~~
+
+When you are ready to submit, run the submit command:
+
 ~~~
 cinf201-submit A01
 ~~~
+
+You will see output similar to the following:
 
 ~~~
 CINF 201 homework tester and submitter
 ======================================
 You are testing and submitting for homework A01.
 
-Continue with these files?
+Note, all files listed below will be submitted. Continue with these files?
 
->> myscript.sql
+>> 4.0K A01.sql
 
 Enter y to continue, any other letter to quit: y
 
 Testing...
 
 
-All tests passed. Continue with submission?
+CINF 201 homework tester
+======================================
+You are testing homework A01.
 
-Enter y to continue, any other letter to quit: y
+ok 1 - A01.sql exists
+ok 2 - Output matches.
+1..2
 
-Submitted A01 at Sat Jul 30 14:02:10 EDT 2016.
-You have been emailed a receipt (jeckroth@stetson.edu).
+
+All tests passed!
+
+
+All tests pass!
+
+Submitting...done.
+
+Here are all of your submissions. Note, only the last submission will be graded.
+
+4.0K jeckroth-A01-2016-08-14_13:35:00.tar.gz
 ~~~
 
