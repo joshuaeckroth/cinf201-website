@@ -15,5 +15,4 @@ layout: note
 
 ## Removing an index
 
-## Performance impact of indexes
 
