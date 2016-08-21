@@ -7,6 +7,10 @@ layout: note
 
 CINF 201 - 01, Fall 2016 --- Database Systems
 
+MWF 2:30-3:20p Eliz Hall 205 --- Pre-reqs: CSCI 111Q or 142 or 261.
+
+This course introduces relational SQL databases and "NoSQL databases," with an emphasis on the former. Students will learn how to create, read, update, and delete data with SQL queries and how to design databases so that they are efficient and secure. Our focus will be on practical techniques that can be immediately applied outside of the classroom.
+
 ## About me
 
 - Joshua Eckroth, [jeckroth@stetson.edu](mailto:jeckroth@stetson.edu), [homepage](http://www2.stetson.edu/~jeckroth/)
@@ -64,7 +68,7 @@ The grading rubric for homework is as follows, out of 3 points:
 
 You are required to give a 5 minute presentation on two separate
 occassions about some new, interesting tool or technique relevant the
-class as a whole (i.e., database systems). Your demos will be added to
+class as a whole. Your demos will be added to
 the cookbooks that are available from this site.
 
 The grading rubric for demos is as follows, out of 3 points:
@@ -81,7 +85,7 @@ tool/technique as someone else will receive no credit.
 
 During some, but not all, weeks during the semester, a paper-based
 quiz will be given. The quiz will always take place on a
-Wednesday. The quizzes will be short, requiring approximately 10
+Wednesday. The quizzes will be short, requiring approximately 5-10
 minutes to complete. They will always have 5 questions.
 
 The grading rubric for quizzes is as follows, out of 3 points:
@@ -93,7 +97,31 @@ The grading rubric for quizzes is as follows, out of 3 points:
 
 ### Group project
 
+In the last four weeks of the course, every student will be working on a group project. Groups will have 2-5 people, mostly grouped by interests. You will (as a group) decide your project goals. Your goals must include building a database, with a graphical user interface, to meet the needs of some real or imagined client.
 
+Exact requirements for group projects will be determined when the projects begin, and may depend somewhat on the goals of each project. Grades for the group project will be determined primarily on whether or not your group meets its goals by Finals Week. 20% of your group project grade will be determined by an average of your team members’ and your own ratings of your performance. These ratings will be private and anonymous. Your grade will be decided according to the following general scheme:
+
+- 80% of group project grade: how successfully your group met its goals
+- 20% of group project grade: average of your group member's individual private ratings of your performance
+
+## Calendar
+
+- Week 1: SQL queries for creating, reading, updating, deleting data
+- Week 2: graphical tools for accessing databases
+- Week 3: Database table design, normalization
+- Week 4: Joins
+- Week 5: Indexes, performance analysis
+- Week 6: Aggregation
+- Week 7: Constraints, transactions
+- Week 8: Views, triggers
+- Week 9: Data import and export
+- Week 10: Security, password storage
+- Week 11: NoSQL databases
+- Week 12: NoSQL databases
+- Week 13: Group projects
+- Week 14: Group projects
+- Week 15: Group projects
+- Week 16: Group projects (presentations)
 
 ## Honor code
 
