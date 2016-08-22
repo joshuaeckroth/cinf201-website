@@ -5,9 +5,7 @@ layout: note
 
 # Database systems
 
-- high
-- level
-- points
+
 
 ## Taxonomy of database systems
 

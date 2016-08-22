@@ -9,7 +9,7 @@ CINF 201 - 01, Fall 2016 --- Database Systems
 
 MWF 2:30-3:20p Eliz Hall 205 --- Pre-reqs: CSCI 111Q or 142 or 261.
 
-This course introduces relational SQL databases and "NoSQL databases," with an emphasis on the former. Students will learn how to create, read, update, and delete data with SQL queries and how to design databases so that they are efficient and secure. Our focus will be on practical techniques that can be immediately applied outside of the classroom.
+This course introduces relational SQL databases and so-called NoSQL databases, with an emphasis on the former. Students will learn how to create, read, update, and delete data with SQL queries and how to design databases so that they are efficient and secure. Our focus will be on practical techniques that can be immediately applied outside of the classroom.
 
 ## About me
 
