@@ -5,10 +5,6 @@ layout: note
 
 # Security
 
-- high
-- level
-- points
-
 ## Motivation
 
 ## Common attack vectors

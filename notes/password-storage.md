@@ -5,10 +5,6 @@ layout: note
 
 # Password storage
 
-- high
-- level
-- points
-
 ## Motivation
 
 not addressing what makes a good password

@@ -5,10 +5,6 @@ layout: note
 
 # GUI frontends
 
-- high
-- level
-- points
-
 ## Motivation
 
 regular people will not directly access the db (security risk and difficult interface)

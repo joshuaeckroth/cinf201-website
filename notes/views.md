@@ -5,10 +5,6 @@ layout: note
 
 # Views
 
-- high
-- level
-- points
-
 ## Motivation
 
 ## Creating views

@@ -1,9 +1,9 @@
 ---
-title: Londo access
+title: Londo and MySQL access
 layout: note
 ---
 
-# Londo access
+# Londo and MySQL access
 
 We will use a server on Stetson campus known as "londo" for accessing
 the database and submitting assignments. You can access londo from
@@ -12,7 +12,7 @@ SSH. Instructions are shown below for Windows and Mac systems.
 
 For future reference, londo's address is 147.253.255.20
 
-## Console access
+## Londo access
 
 Most of your work with londo will use console access. For Windows, I recommend you use Putty. For Mac, you can use the builtin SSH tool.
 

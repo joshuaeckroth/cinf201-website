@@ -5,9 +5,6 @@ layout: note
 
 # Joins
 
-- high
-- level
-- points
 
 ## Motivation
 

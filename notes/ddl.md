@@ -5,10 +5,6 @@ layout: note
 
 # Data definition language (DDL)
 
-- high
-- level
-- points
-
 ## Creating databases
 
 ## Creating tables

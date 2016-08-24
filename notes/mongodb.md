@@ -5,10 +5,6 @@ layout: note
 
 # MongoDB
 
-- high
-- level
-- points
-
 ## History
 
 ## Use cases

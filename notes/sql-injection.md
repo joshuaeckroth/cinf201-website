@@ -5,10 +5,6 @@ layout: note
 
 # SQL injection
 
-- high
-- level
-- points
-
 ## Motivation
 
 ## Examples

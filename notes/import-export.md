@@ -5,10 +5,6 @@ layout: note
 
 # Import/export
 
-- high
-- level
-- points
-
 ## Motivation
 
 ## Import from SQL

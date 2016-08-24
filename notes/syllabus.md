@@ -83,10 +83,11 @@ tool/technique as someone else will receive no credit.
 
 ### Quizzes
 
-During some, but not all, weeks during the semester, a paper-based
-quiz will be given. The quiz will always take place on a
-Wednesday. The quizzes will be short, requiring approximately 5-10
-minutes to complete. They will always have 5 questions.
+During some, but not all, weeks during the semester, an online quiz will be
+given. The quiz will always take place on a Wednesday. The quiz will occur in
+class but must be taken on Blackboard during the class time. The quizzes will
+be short, requiring approximately 5-10 minutes to complete. They will always
+have 5 questions.
 
 The grading rubric for quizzes is as follows, out of 3 points:
 

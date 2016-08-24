@@ -5,10 +5,6 @@ layout: note
 
 # Indexes
 
-- high
-- level
-- points
-
 ## Motivation
 
 ## Adding an index
