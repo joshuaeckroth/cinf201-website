@@ -124,6 +124,18 @@ Exact requirements for group projects will be determined when the projects begin
 - Week 15: Group projects
 - Week 16: Group projects (presentations)
 
+Homework due dates:
+
+<ul>
+{% for p in site.pages sort_by:title order:ascending %}
+{% if p.categories contains 'assignments' %}
+<li>
+<a href="{{ p.url }}">{{ p.title }}</a>, due {{ p.due }}
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+
 ## Honor code
 
 I am strongly in agreement with the [Stetson University Honor Code](http://www.stetson.edu/other/honor-system/). Any form of cheating is not acceptable, will not be tolerated, and could lead to dismissal from the University.
