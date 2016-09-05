@@ -33,3 +33,19 @@ Expand a database in the lower-left pane and select a table. Right-click and cho
 ![MySQL Workbench](/images/mysql-workbench-5.png)
 
 
+## phpMyAdmin
+
+A second option is phpMyAdmin, which works in your browser. Thus, you do not need to install any software.
+
+Connect to phpMyAdmin using this address: [https://londo.stetson.edu/phpmyadmin/](https://londo.stetson.edu/phpmyadmin/). Log in with your MySQL credentials (not londo credentials).
+
+![phpMyAdmin Login](/images/phpmyadmin-login.png)
+
+Next, select your database and table from the tree on the left sidebar:
+
+![phpMyAdmin Select Database](/images/phpmyadmin-selectdb.png)
+
+After selecting a table, you can execute SQL queries using the SQL menu link, then typing some SQL code and clicking Go. Modify your query with the "Edit inline" link below the input box.
+
+![phpMyAdmin Query](/images/phpmyadmin-query.png)
+
