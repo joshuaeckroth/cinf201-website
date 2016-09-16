@@ -42,8 +42,25 @@ Left joins may return rows from the "left" (first) table even in cases where the
 
 A right join is just like a left join except only the left (first) table is subjected to the match conditions. If you reverse the order that the tables are mentioned in the query, you can change a right join into an equivalent left join and vice versa.
 
-## Example: Shopping
+## Example: IMDB
 
-Here are some examples from class with the various `shop` tables in the `cinf201` database.
+Here are some examples from class with the various tables in the `cinf201_imdb` database.
 
+``` sql
+-- movie title, character, and actor name for females in lead roles
+select distinct title, character_name, fname, lname
+  from movies m
+  join acted_in ai on m.idmovies = ai.idmovies
+  join actors on actors.idactors = ai.idactors
+  where billing_position = 1 and gender = 0 order by title limit 10;
+
+
+-- all the unique genres Amy Schumer has worked in
+select distinct genre from genres
+  join movies_genres on genres.idgenres = movies_genres.idgenres
+  join movies on movies_genres.idmovies = movies.idmovies
+  join acted_in on movies.idmovies = acted_in.idmovies
+  join actors on acted_in.idactors = actors.idactors
+  where lname = 'Schumer' and fname = 'Amy' order by genre;
+```
 
