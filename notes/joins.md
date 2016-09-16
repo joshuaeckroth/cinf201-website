@@ -42,6 +42,19 @@ Left joins may return rows from the "left" (first) table even in cases where the
 
 A right join is just like a left join except only the left (first) table is subjected to the match conditions. If you reverse the order that the tables are mentioned in the query, you can change a right join into an equivalent left join and vice versa.
 
+## Example: Shop
+
+``` sql
+-- show product inventory counts
+select title, invcount from shop_products join shop_inventory on shop_products.id = shop_inventory.product_id;
+
+-- show ratings for products, INCLUDING products with no ratings (left join; or right join if you switch the table order)
+select title, rating from shop_products left join shop_reviews on shop_reviews.product_id = shop_products.id;
+
+-- show products in customer's shopping carts
+select name, title, quantity from shop_customers join shop_shoppingcart on shop_shoppingcart.customer_id = shop_customers.id join shop_products on shop_products.id = shop_shoppingcart.product_id;
+```
+
 ## Example: IMDB
 
 Here are some examples from class with the various tables in the `cinf201_imdb` database.
