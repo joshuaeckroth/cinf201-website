@@ -15,12 +15,14 @@ Here is our demo day schedule:
 09/16 Ou
 09/23 Duncan
 09/23 Po
+09/23 Richard
 09/30 Cornell
 09/30 Nick
 10/07 Dearvis
 10/07 Christian
 10/14 Andrew
 10/14 Mimi
+10/14 Richard
 10/21 Shayne
 10/21 Bailey
 10/28 Roberto
