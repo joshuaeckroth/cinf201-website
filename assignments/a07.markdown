@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "A07: Student loans"
-due: "Oct 10, 11:59pm"
+due: "Oct 17, 11:59pm"
 categories: [assignments]
 ---
 
