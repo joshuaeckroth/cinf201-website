@@ -1,12 +1,12 @@
 ---
 layout: note
 title: "A08: Registrar"
-due: "Oct 17, 11:59pm"
+due: "Oct 24, 11:59pm"
 categories: [assignments]
 ---
 
 # A08: Registrar
 
-This assignment helps you practice table design, constraints like foreign keys, and transactions. You will be asked to create a student registrar system. Details forthcoming.
+This assignment helps you practice table design, constraints like foreign keys, and views. You will be asked to create a student registrar system. Details forthcoming.
 
 

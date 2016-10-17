@@ -1,13 +1,13 @@
 ---
 layout: note
-title: "A11: Social network"
-due: "Nov 7, 11:59pm"
+title: "A12: Product reviews"
+due: "Nov 14, 11:59pm"
 categories: [assignments]
 ---
 
-# A11: Social network
+# A12: Product reviews
 
-This assignment helps you practice secure database design. You will be tasked with designing a database for a social network. The database will store passwords, among other sensitive information. Details forthcoming.
+This assignment helps you practice with NoSQL database systems, specifically MongoDB. You will set up the database to store product reviews. Details forthcoming.
 
 
 

@@ -1,13 +1,23 @@
 ---
 layout: note
-title: "A09: Registrar, pt. 2"
-due: "Oct 24, 11:59pm"
+title: "A09: Lahman's baseball db"
+due: "Oct 31, 11:59pm"
 categories: [assignments]
 ---
 
-# A09: Registrar, pt. 2
+# A10: Lahman's baseball db
 
-This assignment helps you practice views and triggers. You will build off the prior assignment in which you created a student registrar database. Details forthcoming.
+This assignment helps you practice with data import and export. You will translate data from a CSV file into MySQL tables, and perform data dumps. Details forthcoming.
+
+{% comment %}
+http://www.seanlahman.com/baseball-archive/statistics/
+
+use CSV, compare with SQL
+
+use SQL also
+{% endcomment %}
+
+
 
 
 
