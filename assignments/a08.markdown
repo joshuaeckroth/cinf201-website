@@ -19,7 +19,7 @@ Create tables and views and sample data to support these queries.
 
 2. Show a Monday-Friday class schedule for a particular faculty member (given a faculty id) and term (semester and year). Show each class, its day of week and starting/ending time of day, the class room, and the class name (e.g., CINF 201) and title (e.g., Database Systems).
 
-3. Show open (not full) classes for some term (semester and year). Show the number of students already enrolled in the course and the number of free seats.
+3. Show the number of students enrolled for every course for a particular term (semester and year).
 
 4. Show a list of student names that are enrolled in some particular class (class name, e.g., CINF 201) for a particular term (semester and year).
 
