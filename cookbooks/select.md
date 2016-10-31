@@ -23,3 +23,12 @@ SELECT LCASE(column) FROM ...
 SELECT LOWER(column) FROM ...
 ```
 
+## Compute the length of a column
+
+This cookbook entry was contributed by Roberto Pagan.
+
+```
+-- use the LENGTH() function to find/limit by the length of a column
+SELECT msg FROM messages WHERE LENGTH(msg) < 140;
+```
+
