@@ -57,7 +57,7 @@ LOAD DATA INFILE '/tmp/myfile.csv'
 The LOAD DATA command supports different kinds of files, not just CSV. But if you wish to import CSV data, indicate `FIELDS TERMINATED BY ','` and, if you expect any fields to have commas (like a "Lastname, Firstname" column), be sure to quote the field in the CSV file and add `OPTIONALLY ENCLOSED BY '"'`, e.g.,
 
 ```
-LOAD DATA INFILE '/tmp/myfile.csv' INTO TABLE mytable FIELDS DELIMITED BY ',' OPTIONALLY ENCLOSED BY '"';
+LOAD DATA INFILE '/tmp/myfile.csv' INTO TABLE mytable FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"';
 ```
 
 Also note that the MySQL server must be able to read your file. On londo, normal file permissions are insufficient for these purposes. Thus, we'll use the following strategies:
