@@ -70,6 +70,7 @@ The additional elements of the `LOAD DATA` command can be used for the following
 - `REPLACE`: 
 - `IGNORE number LINES`: skip a header line in the CSV file with this feature.
 - `(col_name, …)`: indicate which columns should be filled from the CSV data; if not specified, all columns will be filled in the order specified when the table was created.
+  - If you need to ignore some columns in the CSV file, you have can use a variable (say, `@dummy`) in that position: `LOAD DATA … (col1, col2, @dummy, col3, @dummy, col4, col5)` for example.
 - `SET col_name = expr, …`: for each row, set some other columns; the `expr` value may refer to other columns on the same row.
 
 ## Export to CSV
