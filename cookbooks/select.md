@@ -27,7 +27,7 @@ SELECT LOWER(column) FROM ...
 
 This cookbook entry was contributed by Roberto Pagan.
 
-```
+```sql
 -- use the LENGTH() function to find/limit by the length of a column
 SELECT msg FROM messages WHERE LENGTH(msg) < 140;
 ```
