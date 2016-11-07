@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "A10: Social network"
-due: "Nov 9, 11:59pm"
+due: "Nov 11, 11:59pm"
 categories: [assignments]
 ---
 
@@ -14,6 +14,7 @@ This assignment helps you practice secure database design and website coding. Yo
 You are required to build a website that interacts with a database. You have two options:
 
 - Use PHP on londo, as described below.
+  - You can see my example code at `/var/www/html/cinf201fa2016/jeckroth/security-demo-good` on londo.
 - Use your own host and any programming language. You are required to use a relational database (MySQL, PostgreSQL, Oracle, etc.) and I must be able to see your tables and relations (or you can give me a screenshot or diagram). You must also show me your code (perhaps on github or similar).
 
 Your social network must support:
