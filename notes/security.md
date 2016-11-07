@@ -11,7 +11,7 @@ layout: note
 
 Naive coding can easily introduce SQL injection vulnerabilities. The problem lies in the fact that SQL code is usually written as strings in an application, e.g., a C++ or Java or PHP or … application will save a query in a string variable. If this query includes data from the user, the application may simply insert the user data directly into the string, like so:
 
-```java&quot;
+```java
 String username = ... // get username from user input
 String query = "SELECT msgtxt, msgdate FROM messages WHERE username = \"" + username + "\" ORDER BY msgdate";
 db.execute(query);
