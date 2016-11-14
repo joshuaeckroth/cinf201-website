@@ -32,3 +32,16 @@ This cookbook entry was contributed by Roberto Pagan.
 SELECT msg FROM messages WHERE LENGTH(msg) < 140;
 ```
 
+## Copy data from one table to another
+
+```sql
+INSERT INTO table2 (col1, col2) SELECT col1, col2 FROM table1
+```
+
+## Between function
+
+```sql
+SELECT name FROM candy WHERE total_pieces_of_candy BETWEEN 100 and 300
+SELECT name FROM candy WHERE total_pieces_of_candy NOT BETWEEN 100 and 300
+```
+
