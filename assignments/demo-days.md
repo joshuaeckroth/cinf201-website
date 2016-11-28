@@ -32,8 +32,8 @@ Here is our demo day schedule:
 11/11 Mimi
 11/11 Bailey
 11/11 Dearvis
-11/18 Andrew
 11/18 Ou
+12/02 Andrew
 12/02 Shayne
 12/02 Austin
 12/02 Christian

@@ -105,6 +105,8 @@ Exact requirements for group projects will be determined when the projects begin
 - 80% of group project grade: how successfully your group met its goals
 - 20% of group project grade: average of your group member's individual private ratings of your performance
 
+**Group projects are due at the time of the final exam (there is no final exam): Thur Dec 15, 9-11am.** Your attendance on that day is required so we can all view each other's group projects.
+
 ## Calendar
 
 - Week 1: SQL queries for creating, reading, updating, deleting data

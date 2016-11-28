@@ -15,27 +15,33 @@ Notes:
 - each photo gets tagged from Clarifai
 - search photos based on tag
 
+Approach:
+
+- Spring backend
+- PostgreSQL for database
+- React frontend
+
 ## Netflixr
 
 Roberto, Cornell
 
 Notes:
 
-- swipe shows
-- if two people swipe same show, they are both notified
+- hosts: the person hosting the event
+- guests: people who attend the event
+- hosts will write the event details
+- hosts will list other activities that will take place (discussion, etc.)
+- at event date, host can send notification to participants where to meet
 
-## Chill Spot
+Approach:
 
-(no group members yet)
-
-Notes:
-
-- find social events near me using lat/lon
-- positive/negative buttons from people who are there (they have to be there)
+- React possibly, for frontend
+- MySQL for database
+- Node.js for backend
 
 ## Let's Lift!
 
-Emily, Dearvis
+Emily, Dearvis, Bailey
 
 Notes:
 
@@ -43,10 +49,40 @@ Notes:
 - search certain gyms
 - chat feature (message each other)
 
-## Text game
+Approach:
 
-Ou, others?
+- PHP
+- MySQL
+
+## Tabletop game
+
+Ou, Shayne
 
 Notes:
 
 - store game data in database
+
+Approach:
+
+- MongoDB
+- Node.js
+
+## Recipize!
+
+Mimi, Duncan
+
+Notes:
+
+- Make recipes out of ingredients
+- Save recipes
+- Search recipes by ingredient
+
+Approach:
+
+- MySQL
+- PHP
+
+## Facebag
+
+Po, Christian
+
