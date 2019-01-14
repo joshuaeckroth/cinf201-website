@@ -6,17 +6,24 @@ layout: note
 # Londo and MySQL access
 
 We will use a server on Stetson campus known as "londo" for accessing
-the database and submitting assignments. You can access londo from
-anywhere but to do so you must use a tool like Putty or
-SSH. Instructions are shown below for Windows and Mac systems.
+the database and submitting assignments. You can access londo
+using a tool like Putty or SSH. If you are off-campus, you must use a VPN. Instructions are shown below for Windows and Mac systems.
 
-For future reference, londo's address is 147.253.255.20
+For future reference, londo's address is **londo.stetson.edu**
 
 ## Londo access
 
 Most of your work with londo will use console access. For Windows, I recommend you use Putty. For Mac, you can use the builtin SSH tool.
 
-### Windows
+### On-campus vs. Off-campus login
+
+If you're off-campus, you'll need to connect to a VPN first. This is explained below. If you're on-campus (on the Student wifi network or computer lab machine), you can still this step.
+
+Download [FortiClient](http://www.forticlient.com/downloads). Configure it as an SSL VPN, IP address 147.253.200.11, port 443, and your Stetson username (e.g., jeckroth) and Stetson password (not londo password!).
+
+![FortiClient VPN](/images/forticlient.png)
+
+### Logging in with Windows
 
 Putty is already installed on the school machines. [Download Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) for your own machine if you wish (choose "putty.exe" link).
 
@@ -48,7 +55,7 @@ When you are done, just close the Putty window.
 
 ### Mac
 
-Start the Terminal app and run `ssh username@147.253.255.20` where "username" is your username:
+Start the Terminal app and run `ssh username@londo.stetson.edu` where "username" is your username:
 
 ![Terminal](/images/ssh-1.png)
 
@@ -89,7 +96,7 @@ Find your local files on the left, and londo files on the right. Drag files back
 Use [Cyberduck](https://cyberduck.io/?l=en) on Mac to transfer files to/from londo. Use this address in the "Quick Connect" box (change the username):
 
 ```
-sftp://jeckroth@147.253.255.20
+sftp://jeckroth@londo.stetson.edu
 ```
 
 ![Cyberduck](/images/cyberduck-1.png)
@@ -105,8 +112,8 @@ The window will show londo files. Find your files in the window and drag/drop wi
 
 Use a text editor, not Microsoft Word. Good text editors include:
 
-- Windows: [Notepad++](https://notepad-plus-plus.org/), [Sublime Text](https://www.sublimetext.com/), [Atom](https://atom.io/)
-- Mac: [Sublime Text](https://www.sublimetext.com/), [Atom](https://atom.io/), [TextWrangler](http://www.barebones.com/products/textwrangler/)
+- Windows: [Notepad++](https://notepad-plus-plus.org/), [Sublime Text](https://www.sublimetext.com/), [Atom](https://atom.io/), [VS Code](https://code.visualstudio.com/)
+- Mac: [Sublime Text](https://www.sublimetext.com/), [Atom](https://atom.io/), [VS Code](https://code.visualstudio.com/)
 
 ### Londo
 
@@ -223,6 +230,6 @@ Submitting...done.
 
 Here are all of your submissions. Note, only the last submission will be graded.
 
-4.0K jeckroth-A01-2016-08-14_13:35:00.tar.gz
+4.0K jeckroth-A01-2018-08-14_13:35:00.tar.gz
 ~~~
 
