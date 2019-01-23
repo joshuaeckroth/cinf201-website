@@ -20,7 +20,7 @@ Type in the connection details exactly as shown, except change the username 'jec
 
 ![MySQL Workbench](/images/mysql-workbench-2.png)
 
-After clicking OK, you'll have a connection (like a bookmark) that can be used whenever you open the Workbench. Double click the connection to connect.
+After clicking OK, you'll have a connection (like a bookmark) that can be used whenever you open the Workbench. Double click the connection to connect. You'll need to provide your londo password followed by your database password (which you can find in your .my.cnf file on londo).
 
 ![MySQL Workbench](/images/mysql-workbench-3.png)
 
@@ -28,24 +28,7 @@ Assuming the connection was set up properly, you will now see several panes. On 
 
 ![MySQL Workbench](/images/mysql-workbench-4.png)
 
-Expand a database in the lower-left pane and select a table. Right-click and choose to select the first 1000 rows. The middle pane will update to show the SQL query generated and executed, plus the results in a spreadsheet form.
+Double-click a database to activate it in the left pane. Type a SQL query in the middle pane, and then click the lightning-bolt icon to execute it. The results will appear in the bottom pane.
 
 ![MySQL Workbench](/images/mysql-workbench-5.png)
-
-
-## phpMyAdmin
-
-A second option is phpMyAdmin, which works in your browser. Thus, you do not need to install any software.
-
-Connect to phpMyAdmin using this address: [https://londo.stetson.edu/phpmyadmin/](https://londo.stetson.edu/phpmyadmin/). Log in with your MySQL credentials (not londo credentials).
-
-![phpMyAdmin Login](/images/phpmyadmin-login.png)
-
-Next, select your database and table from the tree on the left sidebar:
-
-![phpMyAdmin Select Database](/images/phpmyadmin-selectdb.png)
-
-After selecting a table, you can execute SQL queries using the SQL menu link, then typing some SQL code and clicking Go. Modify your query with the "Edit inline" link below the input box.
-
-![phpMyAdmin Query](/images/phpmyadmin-query.png)
 

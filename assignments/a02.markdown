@@ -1,0 +1,64 @@
+---
+layout: note
+title: "A02: Billboard Top 10"
+due: "Feb 1, 11:59pm"
+categories: [assignments]
+---
+
+# A02: Billboard Top 10
+
+This assignment helps you practice "insert", "select", "update", and "delete" queries. We'll use a simple dataset of Billboard top songs for the [week of January 19, 2019](http://www.billboard.com/charts/hot-100/).
+
+## Preparation
+
+Here is the song data:
+
+| Artist | Song | This week position | Last week position |
+|-
+| Post Malone & Swae Lee | Sunflower (Spider-Man: Into The Spider-Verse) | 1 | 3 |
+| Halsey | Without Me | 2 | 1 |
+| Ariana Grande | Thank U, Next | 3 | 2 |
+| Travis Scott | Sicko Mode | 4 | 4 |
+| Panic! At The Disco | High Hopes | 5 | 5 |
+| Marshmello & Bastille | Happier | 6 | 6 |
+| Maroon 5 Featuring Cardi B | Girls Like You | 7 | 7 |
+| Lil Baby & Gunna | Drip Too Hard | 8 | 8 |
+| Benny Blanco, Halsey, & Khalid | Eastside | 9 | 11 |
+| Kodak Black Featuring Travis Scott & Offset | ZEZE | 10 | 9 |
+
+## Required code
+
+Include the following code at the top of your solution to ensure the table structure is created. Change "cinf201\_jeckroth" to your database name, i.e., "cinf201\_myusername".
+
+~~~ sql
+use cinf201_jeckroth;
+drop table if exists billboard_top10;
+create table billboard_top10 (
+    artist varchar(200) not null,
+    song varchar(200) not null,
+    this_week_pos int not null,
+    last_week_pos int
+);
+~~~
+
+## Tasks
+
+1. Insert all the song data listed in the table above, in the order shown in the table. Then run `select * from billboard_top10;` to show all the data in the order inserted.
+2. Show all songs (artist and song name) that have moved up the chart over the week; keep the order of songs the same as the original table.
+3. Swap the "this week" positions of Travis Scott and Ariana Grande songs. Don't change their "last week" positions. You might need multiple queries. Then run `select * from billboard_top10 order by this_week_pos;`
+4. Show all data from songs that involve Halsey (either as sole artist or featured). Sort by this week pos, ascending.
+5. Copy every "this week" position to "last week", then update all "this week" positions to 1+ their prior value. Eliminate any songs whose "this week" position is greater than 10. Then run `select * from billboard_top10 order by this_week_pos;`
+6. Add a new song at position 1: artist = Rick Astley, song = Never Gonna Give You Up, this week pos = 1, last week pos = null. Then run `select * from billboard_top10 order by this_week_pos;`
+
+## Tester
+
+~~~
+cinf201-test A02
+~~~
+
+## Submission
+
+~~~
+cinf201-submit A02
+~~~
+
