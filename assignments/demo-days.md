@@ -37,6 +37,7 @@ Feb 22:
 - Yazeed
 - Mohammed
 - Nick
+- Abdul
 
 Mar 1:
 
@@ -71,7 +72,6 @@ Mar 29:
 Apr 5:
 
 - Kassaundra
-- Abdul
 - Turki
 - Muhannad
 - Waleed
