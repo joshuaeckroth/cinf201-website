@@ -7,7 +7,7 @@ categories: [assignments]
 
 # A03: Enron emails
 
-This assignment helps you practice with "joins" using an email dataset. Only "inner joins" will be needed.
+This assignment helps you practice with "joins" using an email dataset. Only "inner joins" will be needed. You will use the tables in the `cinf201` database that start with the word `enron_`.
 
 ## Background and disclaimer
 
