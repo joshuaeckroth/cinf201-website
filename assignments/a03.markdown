@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "A03: Enron emails"
-due: "Feb 8, 11:59pm"
+due: "Feb 11, 11:59pm"
 categories: [assignments]
 ---
 
