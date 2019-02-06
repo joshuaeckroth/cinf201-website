@@ -27,8 +27,8 @@ I believe coursework should be as realistic as possible in order to model the en
 
 1. Show the message date and subject for all emails sent by one of Enron's CEOs, Jeffrey Skilling (email jeff.skilling@enron.com); order by date (earliest first).
 2. Show the email address and recipient type (0/1/2 for to/cc/bcc respectively) for recipients of the message with subject 'FERC Issues' (message id 187528); do not apply any particular sort to the results.
-3. Show the date and subject, and sender email of the 10 most recent emails in Kenneth Lay's folder 'lay-k/inbox' (Lay was the founder of Enron); sort by date (recent first). Use just one query. Do not look up the folder id ahead of time; use the folder name in the query. Name the sender email column "sender" in the results.
-4. Show the folder, date, subject, and sender email of all emails that have a subject with the word "bankruptcy". Limit results to messages sent between November 1, 2001 and the end of the year (include Nov 1), and sent from emails that end with '@enron.com'. Order by date, newest last.
+3. Show the date and subject, and sender email of the 10 most recent emails in Kenneth Lay's folder 'lay-k/inbox' (Lay was the founder of Enron); sort by date (oldest first). Use just one query. Do not look up the folder id ahead of time; use the folder name in the query. Name the sender email column "sender" in the results.
+4. Show the folder, date, subject, and sender email of all emails that have a subject with the word "bankruptcy". Limit results to messages sent between November 1, 2001 and the end of the year (include Nov 1, but do not include Dec 31), and sent from emails that end with '@enron.com'. Order by date, newest last.
 5. Show all distinct email addresses of people who received a message with the subject "FW: UPDATE - Reporting to Work Next Week"; these users may be To or CC or BCC recipients. Sort by email address (a first, z last).
 
 ## Tester
