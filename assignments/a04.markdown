@@ -1,0 +1,49 @@
+---
+layout: note
+title: "A04: Pokédex"
+due: "Feb 18, 11:59pm"
+categories: [assignments]
+---
+
+# A04: Pokédex
+
+This assignment helps you practice with normalized table design. You are asked to create a set of tables, with proper relationships, to represent some Pokémon facts.
+
+## Task
+
+Write a single file named `A05.sql`. Include `use cinf201_myname` at the top (where `myname` is your username). Choose at least 10 Pokémon (from [this list](http://www.smogon.com/dex/xy/pokemon/)), at least 10 abilities, and at least 10 moves, and all relevant "types" for the Pokémon you've chosen. Create tables with proper foreign keys to satisfy the kinds of queries listed below, and write "insert" queries to add the facts you've chosen. Your tables must be named with `pok_` at the beginning of every table name. Write at least one example "select" query for each of the following:
+
+- Show Pokémon names and HP sorted by HP.
+- Show abilities for a specific Pokémon.
+- Show Pokémon with certain abilities (e.g., Snow Warning, Soundproof, etc.).
+- Show Pokémon that are certain types (e.g., Grass, Ice, etc.).
+
+You do not need to include any more information than what is necessary for those queries.
+
+**Your tables must be normalized** according to the definition from [our notes](/notes/table-design.html).
+
+## Tester
+
+There is no automated tester. However, you can test your SQL code for your own benefit:
+
+```
+mysql -t < A04.sql
+```
+
+## Submission
+
+
+```
+cinf201-submit A04
+```
+
+## Grading rubric
+
+Out of 3 points:
+
+- all requirements met (tables are created in normalized form and appropriate columns and types, data are inserted, example queries are included): 3 pts
+- tables not normalized, but other requirements are met: 2 pts
+- missing some requirements like not all tables included, data missing: 1 pt
+- no submission or errors in the code: 0 pts
+
+
