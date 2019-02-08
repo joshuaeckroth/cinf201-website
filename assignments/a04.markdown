@@ -11,7 +11,7 @@ This assignment helps you practice with normalized table design. You are asked t
 
 ## Task
 
-Write a single file named `A05.sql`. Include `use cinf201_myname` at the top (where `myname` is your username). Choose at least 10 Pokémon (from [this list](http://www.smogon.com/dex/xy/pokemon/)), at least 10 abilities, and at least 10 moves, and all relevant "types" for the Pokémon you've chosen. Create tables with proper foreign keys to satisfy the kinds of queries listed below, and write "insert" queries to add the facts you've chosen. Your tables must be named with `pok_` at the beginning of every table name. Write at least one example "select" query for each of the following:
+Write a single file named `A04.sql`. Include `use cinf201_myname` at the top (where `myname` is your username). Choose at least 10 Pokémon (from [this list](http://www.smogon.com/dex/xy/pokemon/)), at least 10 abilities, and at least 10 moves, and all relevant "types" for the Pokémon you've chosen. Create tables with proper foreign keys to satisfy the kinds of queries listed below, and write "insert" queries to add the facts you've chosen. Your tables must be named with `pok_` at the beginning of every table name. Write at least one example "select" query for each of the following:
 
 - Show Pokémon names and HP sorted by HP.
 - Show abilities for a specific Pokémon.
