@@ -21,7 +21,6 @@ Feb 8:
 - Dominic
 - Greg
 - Deanna
-- Hans
 
 Feb 15:
 
@@ -33,11 +32,7 @@ Feb 15:
 
 Feb 22:
 
-- Musab
-- Yazeed
-- Mohammed
-- Nick
-- Abdul
+- (no class)
 
 Mar 1:
 
@@ -46,6 +41,7 @@ Mar 1:
 - Mohammed
 - Tam
 - Waleed
+- Musab
 
 Mar 15:
 
@@ -57,6 +53,7 @@ Mar 15:
 
 Mar 22:
 
+- Mohammed
 - Mac
 - Tam
 - Kassaundra
@@ -68,6 +65,7 @@ Mar 29:
 - Charles
 - Mac
 - Abdul
+- Hans
 
 Apr 5:
 
@@ -83,11 +81,13 @@ Apr 12:
 - Ben
 - Turki
 - Muhannad
+- Abdul
 
 Apr 26:
 
 - Mikhail
 - Ben
 - Raian
-
+- Nick
+- Yazeed
 
