@@ -1,0 +1,37 @@
+---
+layout: note
+title: "A05: IMDB indexes"
+due: "Mar 1, 11:59pm"
+categories: [assignments]
+---
+
+# A05: IMDB indexes
+
+This assignment helps you practice with indexes and performance analysis. We will use data from [IMDB](http://www.imdb.com/), imported using the [imdb-to-sql](https://github.com/ameerkat/imdb-to-sql) project. The data is in two separate databases: cinf201\_imdb and cinf201\_imdb\_noindex.
+
+Note, because this assignment involves benchmarks, which are somewhat nondeterministic, there are no automated test cases or testing script.
+
+## Tasks
+
+In a single file named `A05.sql`, write queries that perform the following tasks:
+
+1. Switch to the cinf\_imdb database. Execute a query that lists all indexes on the `actors` table.
+2. Switch to the cinf\_imdb\_noindex database. Execute the same query as in (1).
+3. Noting the difference between the actors table in both databases, execute a benchmark query that demonstrates the value of one or more indexes on the actors table. Perform the benchmark query on both databases.
+4. Build another benchmark query that uses a join across actors, acted\_in, and movies tables. Again, try to highlight the benefits of indexes. Run the benchmark query on both databases.
+5. Build a query in which the "explain" feature of MySQL clearly shows that the query uses indexes in the indexed database (cinf201\_imdb) but not the other (cinf201\_imdb\_noindex). Include this "explain" query in your SQL file, and run it on both databases.
+
+## Tester
+
+As noted above, because this assignment involves benchmarks, which are somewhat nondeterministic, there are no automated test cases or testing script.
+
+## Submission
+
+~~~
+cinf201-submit A05
+~~~
+
+## Hints
+
+Recall that a benchmark query can only run "select" queries that return one result (one column value from one row). You might want to use a feature like `SELECT COUNT(*) FROM ...` to return a single value.
+
