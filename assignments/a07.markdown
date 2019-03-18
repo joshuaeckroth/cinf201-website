@@ -1,0 +1,66 @@
+---
+layout: note
+title: "A07: IMDB Website"
+due: "Mar 29, 11:59pm"
+categories: [assignments]
+---
+
+# A07: IMDB Website
+
+In this assignment, you will build a website that lets people browse and search the IMDB movie database.
+
+## Tasks
+
+Extend our IMDB website demonstrated in class (location on londo: `/home/jeckroth/cinf201/webapp`).
+
+Add these features:
+
+1. TBD
+
+## Flask ports
+
+Run your website with the following command, but changing the port to your designated port:
+
+```
+FLASK_APP=main.py flask run --port=5026
+```
+
+| Name | Port |
+|---
+|Mussaed|5001|
+|Turki|5002|
+|Muhannad|5003|
+|Abdulrahman|5004|
+|Hassan|5005|
+|Yazeed|5006|
+|Jesus|5007|
+|Mohammed|5008|
+|Abdullah|5009|
+|Dominic|5010|
+|Benjamin|5011|
+|Greg|5012|
+|Mikhail|5013|
+|Charles|5014|
+|Mac|5015|
+|Tam|5016|
+|Hans|5017|
+|Kassaundra|5018|
+|Mike|5019|
+|Nicanor|5020|
+|Musab|5021|
+|Raian|5022|
+|Waleed|5023|
+|Khalid|5024|
+|Deanna|5025|
+
+## Tester
+
+There is no tester. I will look at your code and use your website on your port.
+
+## Submission
+
+~~~
+cinf201-submit A07
+~~~
+
+
