@@ -1,21 +1,36 @@
 ---
 layout: note
-title: "A07: IMDB Website"
-due: "Mar 29, 11:59pm"
+title: "A07: IMDB website"
+due: "Apr 1, 11:59pm"
 categories: [assignments]
 ---
 
-# A07: IMDB Website
+# A07: IMDB website
 
-In this assignment, you will build a website that lets people browse and search the IMDB movie database.
+In this assignment, you will build a website that lets people browse the IMDB movie database.
 
 ## Tasks
 
-Extend our IMDB website demonstrated in class (location on londo: `/home/jeckroth/cinf201/webapp`).
+Extend our IMDB website demonstrated in class. Start by making a directory:
+
+```
+mkdir A07
+cd A07
+```
+
+Then copy my files:
+
+```
+cp -R /home/jeckroth/cinf201/webdemo/* .
+```
 
 Add these features:
 
-1. TBD
+1. A page showing the actors (firstname and lastname) & their character names in a movie, accessible at `/movies/<idmovies>`. Show the characters in order of billing position. Make sure this page is linked from each movie on the homepage. Include the movie title & year on the page.
+2. A page showing the movies that an actor has acted in, including the character name & movie year & movie rating, accessible at `/actors/<idactors>`. The actor page should be linked for each actor on the list of actors from the movie page (task 1). Include the actor's name on the page.
+3. Update the homepage to show the total count of movies and actors, above the table of top-rated movies.
+
+Make all of your pages look attractive using standard Bootstrap styling. Read the bootstrap documentation at [getbootstrap.com](https://getbootstrap.com/docs/4.0/layout/overview/).
 
 ## Flask ports
 
