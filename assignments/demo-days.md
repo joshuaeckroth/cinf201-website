@@ -73,6 +73,7 @@ Apr 5:
 - Turki
 - Muhannad
 - Raian
+- Abdul
 
 Apr 12:
 
@@ -80,7 +81,6 @@ Apr 12:
 - Ben
 - Turki
 - Muhannad
-- Abdul
 - Yazeed
 
 Apr 26:
