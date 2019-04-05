@@ -72,7 +72,6 @@ Apr 5:
 - Kassaundra
 - Turki
 - Muhannad
-- Waleed
 - Raian
 
 Apr 12:
@@ -91,4 +90,5 @@ Apr 26:
 - Raian
 - Nick
 - Yazeed
+- Waleed
 
