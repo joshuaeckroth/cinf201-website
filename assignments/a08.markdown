@@ -21,6 +21,8 @@ The website requirements are as follows:
 
 There is no need to have user "accounts" with passwords and so on. I'll talk about this stuff in class but it's not required for this assignment.
 
+Copy starting files from `/home/jeckroth/cinf201/webdemo-todoapp` on londo.
+
 ## Deliverables
 
 You must turn in:
