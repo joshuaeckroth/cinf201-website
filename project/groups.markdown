@@ -3,86 +3,22 @@ title: Groups
 layout: note
 ---
 
-# Groups
+# Group project
 
-## Instafai/Clarigram
+## Requirements
 
-Richard, Austin, Andrew
+Work alone or with one other person. Your application idea must be approved by me ahead of time. Create an application that meets these requirements:
 
-Notes:
+- Use a database (MySQL, SQLite, or something else that I approve).
+- Create at least four tables, and make your tables normalized (up to "level 3 normalization").
+- Include appropriate indexes on your tables (at least one index, which might be just primary keys).
+- Include features in your app that insert, update, and delete data.
+- Include at least one aggregation query.
+- Make a user interface that allows a regular person to use your application.
+- Make the user interface visually appealing.
+- Ensure there are no SQL-injection security vulnerabilities (e.g., execute queries like we did in our Flask homeworks).
 
-- upload photos
-- each photo gets tagged from Clarifai
-- search photos based on tag
+You do not need to use londo if you don't wish to. Everyone should email me a ZIP of their project. The deadline for submission by email is Sat May 4, 5pm. Everyone will demonstrate their app during our "final exam" time, Sat May 4, 5-7pm.
 
-Approach:
-
-- Spring backend
-- PostgreSQL for database
-- React frontend
-
-## Netflixr
-
-Roberto, Cornell
-
-Notes:
-
-- hosts: the person hosting the event
-- guests: people who attend the event
-- hosts will write the event details
-- hosts will list other activities that will take place (discussion, etc.)
-- at event date, host can send notification to participants where to meet
-
-Approach:
-
-- React possibly, for frontend
-- MySQL for database
-- Node.js for backend
-
-## Let's Lift!
-
-Emily, Dearvis, Bailey
-
-Notes:
-
-- matches people like you (in terms of athleticism)
-- search certain gyms
-- chat feature (message each other)
-
-Approach:
-
-- PHP
-- MySQL
-
-## Tabletop game
-
-Ou, Shayne
-
-Notes:
-
-- store game data in database
-
-Approach:
-
-- MongoDB
-- Node.js
-
-## Recipize!
-
-Mimi, Duncan
-
-Notes:
-
-- Make recipes out of ingredients
-- Save recipes
-- Search recipes by ingredient
-
-Approach:
-
-- MySQL
-- PHP
-
-## Facebag
-
-Po, Christian
+## Groups
 
