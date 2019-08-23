@@ -5,9 +5,9 @@ layout: note
 
 # Syllabus
 
-CINF 201 - 01, Spring 2019 --- Database Systems
+CINF 201 - 01, Fall 2019 --- Database Systems
 
-MWF 11a-12p Eliz Hall 205 --- Pre-reqs: CSCI 111Q or 142 or 261.
+MWF 10-11a Davis 101 --- Pre-reqs: CSCI 111Q or 142 or 261.
 
 This course introduces relational SQL databases and NoSQL databases, with an emphasis on the former. Students will learn how to create, read, update, and delete data with SQL queries and how to design databases so that they are efficient and secure. Our focus will be on practical techniques that can be immediately applied outside of the classroom.
 
@@ -17,7 +17,7 @@ This course introduces relational SQL databases and NoSQL databases, with an emp
 
 - Eliz Hall 214, 386-740-2519
 
-- Office hours: MW 1:30-2:30p, Tue 12-2p
+- Office hours: TBD
 
 ## Textbook
 
@@ -86,20 +86,14 @@ During some, but not all, weeks during the semester, an online quiz will be
 given. The quiz will always take place on a Wednesday. The quiz will occur in
 class but must be taken on Blackboard during the class time. The quizzes will
 be short, requiring approximately 5-10 minutes to complete. They will always
-have 5 questions.
-
-The grading rubric for quizzes is as follows, out of 3 points:
-
-- 4 or 5 questions solved correctly: 3 pts
-- 2 or 3 questions solved correctly: 2 pts
-- 1 question solved correctly: 1 pt
-- 0 questions sovled correctly or absent (did not take quiz): 0 pts
+have 5 questions. The grading rubric is simple: the number of points you receive
+equals the number of questions you answer correctly.
 
 ### Group project
 
 The group projects are to be determined.
 
-**Group projects are due at the time of the final exam (there is no final exam): Sat May 4, 5-7pm.** Your attendance on that day is required so we can all view each other's group projects.
+**Group projects are due at the time of the final exam (there is no final exam).** Your attendance on that day is required so we can all view each other's group projects.
 
 ## Calendar
 
