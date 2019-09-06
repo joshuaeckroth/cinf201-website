@@ -75,3 +75,7 @@ a, a:visited, a:active, a:hover {
     text-decoration: none;
 }
 
+table {
+    max-height: none !important;
+}
+
