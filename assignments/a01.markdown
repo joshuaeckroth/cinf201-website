@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "A01: NFL Play-by-play"
-due: "Sep 4, 11:59pm"
+due: "Sep 11, 11:59pm"
 categories: [assignments]
 ---
 
