@@ -114,6 +114,8 @@ The group projects are to be determined.
 - Week 15: Group projects
 - Week 16: Group projects (presentations)
 
+Final exam time (project presentations):  Tuesday, Dec 10 (2p-4p)
+
 {% comment %}
 Homework due dates:
 
