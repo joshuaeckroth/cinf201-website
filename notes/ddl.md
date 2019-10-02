@@ -109,7 +109,101 @@ alter_specification:
  | RENAME new_tbl_name
 ```
 
+## Example
 
+```
+SET foreign_key_checks = 0;
+drop table if exists restaurants;
+drop table if exists employees;
+drop table if exists products;
+drop table if exists managers;
+drop table if exists restaurants_managers;
+drop table if exists menu;
+drop table if exists orders;
+drop table if exists orderitem;
+drop table if exists inventory;
+SET foreign_key_checks = 1;
+
+
+create table employees (
+	id int not null primary key auto_increment,
+	name varchar(255) not null,
+	dob date not null,
+	title varchar(255) not null,
+	hourly_rate decimal(3,2) not null,
+	restaurant_id int not null
+);
+
+create table products (
+	id int not null primary key auto_increment,
+	name varchar(255) not null,
+	category enum('entree', 'drink', 'sides', 'dessert') not null
+);
+
+create table restaurants (
+	id int not null primary key auto_increment,
+	city varchar(255) not null,
+	state varchar(2) not null,
+	postal varchar(5) not null,
+	street_address varchar(255) not null
+);
+
+create table managers (
+	id int not null primary key auto_increment,
+	name varchar(255) not null,
+	dob date not null,
+	title varchar(255) not null,
+	salary decimal(12,2) not null
+);
+
+create table restaurants_managers (
+	restaurant_id int not null,
+	manager_id int not null
+);
+
+create table menu (
+	id int not null primary key auto_increment,
+	price decimal(4,2) not null,
+	product_id int not null,
+	restaurant_id int not null
+);
+
+create table orders (
+	id int not null primary key auto_increment,
+	time_of_order timestamp not null default current_timestamp,
+	total_cost decimal(10,2) not null,
+	restaurant_id int not null
+);
+
+create table orderitem (
+	id int not null primary key auto_increment,
+	cnt int not null,
+	menu_id int not null
+);
+
+create table inventory (
+	id int not null primary key auto_increment,
+	name varchar(255) not null,
+	vendor varchar(255) not null,
+	cnt int not null,
+	cost decimal(12,2) not null,
+	restaurant_id int not null
+);
+
+alter table employees add foreign key (restaurant_id) references restaurants (id);
+
+alter table restaurants_managers add foreign key (restaurant_id) references restaurants (id);
+alter table restaurants_managers add foreign key (manager_id) references managers (id);
+
+alter table inventory add foreign key (restaurant_id) references restaurants (id);
+
+alter table menu add foreign key (restaurant_id) references restaurants (id);
+alter table menu add foreign key (product_id) references products (id);
+
+alter table orderitem add foreign key (menu_id) references menu (id);
+
+alter table orders add foreign key (restaurant_id) references restaurants (id);
+```
 
 
 
