@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "A04: Pokédex"
-due: "Oct 4, 11:59pm"
+due: "Oct 7, 11:59pm"
 categories: [assignments]
 ---
 
