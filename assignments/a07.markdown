@@ -1,0 +1,70 @@
+---
+layout: note
+title: "A07: IMDB website"
+due: "Fri Nov 8, 11:59pm"
+categories: [assignments]
+---
+
+# A07: IMDB website
+
+In this assignment, you will build a website that lets people browse the IMDB movie database.
+
+## Tasks
+
+Extend our IMDB website demonstrated in class. Start by making a directory:
+
+```
+mkdir A07
+cd A07
+```
+
+Then copy my files:
+
+```
+cp -R /home/jeckroth/cinf201/python/* .
+```
+
+Add these features:
+
+1. A page showing the actors (firstname and lastname) & their character names in a movie, accessible at `/movies/<idmovies>`. Show the characters in order of billing position. Make sure this page is linked from each movie on the homepage. Include the movie title, year, and average rating on the page.
+2. A page showing the movies that an actor has acted in, including the character name & movie year & movie rating, accessible at `/actors/<idactors>`. The actor page should be linked for each actor on the list of actors from the movie page (task 1). Include the actor's name on the page.
+3. The home page should be a search box and two tables of results. First results are actors with last names that contain the search query, second results are movies whose titles contain the query. Make sure you use efficient SQL queries. Clicking the actor or movie name from these tables goes to the respective page (bullet points 1 and 2). You do not need to create previous/next buttons; just limit the results to the top 20 by movie rating or top 20 by number of movies the actor is in.
+
+Make all of your pages look attractive using standard Bootstrap styling. Read the bootstrap documentation at [getbootstrap.com](https://getbootstrap.com/docs/4.0/layout/overview/).
+
+## Flask ports
+
+Run your website with the following command, but changing the port to your designated port:
+
+```
+FLASK_APP=main.py flask run --port=6026
+```
+
+| Name | Port |
+|---
+|Danny|6001|
+|Trip|6002|
+|Pablo|6003|
+|Morgan|6004|
+|Josh|6005|
+|Cody|6006|
+|Lezhi|6007|
+|Carie|6008|
+|Mathew|6009|
+|Evan|6010|
+|Kenneth|6011|
+|Aaron|6012|
+|Marshall|6013|
+|Freddie|6014|
+
+## Tester
+
+There is no tester. I will look at your code and use your website on your port.
+
+## Submission
+
+~~~
+cinf201-submit A07
+~~~
+
+
