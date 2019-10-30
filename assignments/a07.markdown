@@ -37,7 +37,7 @@ Make all of your pages look attractive using standard Bootstrap styling. Read th
 Run your website with the following command, but changing the port to your designated port:
 
 ```
-FLASK_APP=main.py flask run --port=6026
+python3 -m flask run --port=6026
 ```
 
 | Name | Port |
