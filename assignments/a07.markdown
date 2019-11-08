@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "A07: IMDB website"
-due: "Fri Nov 8, 11:59pm"
+due: "Mon Nov 11, 11:59pm"
 categories: [assignments]
 ---
 
