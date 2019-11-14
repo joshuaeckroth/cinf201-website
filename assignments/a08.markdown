@@ -1,0 +1,66 @@
+---
+layout: note
+title: "A08: Backblaze"
+due: "Fri Nov 22, 11:59pm"
+categories: [assignments]
+---
+
+# A08: Backblaze
+
+Using the delenn server (delenn.stetson.edu port 2222), and the files located at `/bigdata/data/backblaze` or the mysql table `backblaze` in the database `bigdata`, answer these questions:
+
+- Which day had the largest number of installed drives, and what was this number?
+- How many distinct drives (by model+serial) are installed (i.e., that exist in the data) in each year?
+- How many failures occurred each year?
+- Which model (not serial) has the most failures overall?
+
+## Submission
+
+Create a file, a08.txt, that contains the commands you ran and the output of those commands. There is no test script. Submit with this command:
+
+~~~
+cinf201-submit A08
+~~~
+
+## Notes from class
+
+```
+Linux commands:
+- less: look at a file
+- wc -l: count lines of file
+- head, tail: show top/bottom of file
+  - head -n 10: show first 10 lines
+  - tail -n +10: show all but first 10 lines
+  - tail -n -10: show last 10 lines
+- cut: split lines by separator,
+  keep certain columns
+  - cut -d , -f 1,2: separate by comma,
+    keep columns 1 & 2
+- sort: sort lines
+- uniq: keep only unique/distinct lines
+  (lines must be sorted first)
+- pipe ("|"): feed output of one command
+  into input of next command
+  - head -n 10 <filename> | wc -l
+- grep: search for lines with a phrase
+  - grep for simple phrases
+  - grep for end of line: $
+    - i.e., grep ',1$' file.csv
+- time: put before a command, to measure
+  how long it takes
+- du -sh: count space required by files
+- for loops:
+  - for i in 1 2 4 56 7; do echo $i; done
+  - for i in `echo 1 2 4 56 7`; do echo $i; done
+
+
+Example Questions:
+- How many records do we have?
+  - 146mil
+  - wc -l backblaze.csv
+- How many drive-days per year? (rows per year)
+  - for i in `ls -d 2*`; do echo $i; wc -l $i/*.csv | tail -n -1; done
+- How many failures overall?
+  - grep ',1$' backblaze.csv | wc -l
+```
+
