@@ -7,6 +7,8 @@ categories: [assignments]
 
 # A08: Backblaze
 
+## Task
+
 Using the delenn server (delenn.stetson.edu port 2222), and the files located at `/bigdata/data/backblaze` or the mysql table `backblaze` in the database `bigdata`, answer these questions:
 
 - Which day had the largest number of installed drives, and what was this number?
