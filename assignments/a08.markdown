@@ -18,11 +18,7 @@ Using the delenn server (delenn.stetson.edu port 2222), and the files located at
 
 ## Submission
 
-Create a file, a08.txt, that contains the commands you ran and the output of those commands. There is no test script. Submit with this command:
-
-~~~
-cinf201-submit A08
-~~~
+Email me your list of commands. (We don't have a cinf201-submit program on delenn.)
 
 ## Notes from class
 
