@@ -1,0 +1,15 @@
+---
+layout: note
+title: "A09: Backblaze Spark"
+due: "Mon Dec 2, 11:59pm"
+categories: [assignments]
+---
+
+# A09: Backblaze Spark
+
+## Task
+
+Complete [assignment 8](http://cinf201.artifice.cc/assignments/a08.html) but using Spark instead of Linux tools. You can find examples on delenn at `/home/jeckroth/cinf201/spark`.
+
+Email me your solution.
+
