@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "A08: Backblaze"
-due: "Fri Nov 22, 11:59pm"
+due: "Mon Nov 25, 11:59pm"
 categories: [assignments]
 ---
 
